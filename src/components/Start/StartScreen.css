@@ -1,0 +1,46 @@
+#StartScreen {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    border: 2px solid rgb(204, 2, 2);
+    box-shadow: 0 0 45px rgb(231, 39, 13);
+}
+
+#button {
+    margin: 0 auto;
+    margin-top: 140px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 15px white;
+    color: white;
+}
+
+#startButton {
+    display: block;
+    background-color: black;
+    color: #ffffff;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    display: block;
+    background-color: black;
+    color: chartreuse;
+    box-shadow: 0 0 45px chartreuse;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.fa-xbox:before {
+    font-size: 190px;
+}
